@@ -41,27 +41,25 @@
     <!-- Different CPU speeds as reported in
          /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state -->
     <array name="cpu.speeds">
-        <value>403000</value> <!-- 403 MHz CPU speed -->
-        <value>604000</value> <!-- 604 MHz CPU speed -->
-        <value>806000</value> <!-- 806 MHz CPU speed -->
-        <value>1017000</value> <!-- 1017 MHz CPU speed -->
-        <value>1209000</value> <!-- 1209 MHz CPU speed -->
-        <value>1305000</value> <!-- 1305 MHz CPU speed -->
+        <value>208000</value> <!-- 208 MHz CPU speed -->
+        <value>432000</value> <!-- 432 MHz CPU speed -->
+        <value>729000</value> <!-- 729 MHz CPU speed -->
+        <value>960000</value> <!-- 960 MHz CPU speed -->
+        <value>1200000</value> <!-- 1200 MHz CPU speed -->
     </array>
     <!-- Power consumption when CPU is idle -->
     <item name="cpu.idle">3.2</item>
     <item name="cpu.awake">17.4</item>
     <!-- Power consumption at different speeds -->
     <array name="cpu.active">
-        <value>88.2</value> <!-- 403 MHz CPU speed -->
-        <value>99.6</value> <!-- 604 MHz CPU speed -->
-        <value>149.6</value> <!-- 806 MHz CPU speed -->
-        <value>178.3</value> <!-- 1017 MHz CPU speed -->
-        <value>232.1</value> <!-- 1209 MHz CPU speed -->
-        <value>256.5</value> <!-- 1305 MHz CPU speed -->
+        <value>44.1</value> <!-- 208 MHz CPU speed -->
+        <value>74.8</value> <!-- 432 MHz CPU speed -->
+        <value>149.6</value> <!-- 729 MHz CPU speed -->
+        <value>175.3</value> <!-- 960 MHz CPU speed -->
+        <value>250.5</value> <!-- 1200 MHz CPU speed -->
     </array>
     <!-- This is the battery capacity in mAh -->
-    <item name="battery.capacity">3100</item>
+    <item name="battery.capacity">2200</item>
 
     <array name="wifi.batchedscan"> <!-- mA.  Current figures based on .0801 s/c and 75.48mA while scanning -->
         <value>.0076</value> <!-- 1-8/hr -->
